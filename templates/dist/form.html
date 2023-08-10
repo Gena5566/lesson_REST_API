@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <meta name="description" content="" />
+      <meta name="author" content="" />
+      <title>Поиск</title>
+      <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+      <!-- Bootstrap Icons-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+      <!-- Google fonts-->
+      <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+      <!-- SimpleLightbox plugin CSS-->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+      <!-- Core theme CSS (includes Bootstrap)-->
+      <link href="css/styles.css" rel="stylesheet" />
+      <style>
+         body {
+            background-image: url("/dist/assets/img/bg-masthead.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+         }
+      </style>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script>
+   </head>
+   <body>
+      <header style="padding-top: 100px;">
+         <h2 class="site-heading text-center text-faded d-none d-lg-block" style="font-size: 78px;">
+            <span class="site-heading-upper text-primary mb-3">Форма для поиска</span>
+         </h2>
+      </header>
+      <section class="page-section clearfix">
+         <div class="form-group">
+            <form id="searchForm" action="about.html">
+               <input type="text" name="query" placeholder="Строка поиска" class="form-control">
+               <select name="where" class="form-control">
+                  <option value="all">Везде</option>
+                  <option value="company">В названии компании</option>
+                  <option selected value="name">В названии вакансии</option>
+               </select>
+               <button type="submit" class="btn btn-primary">Искать вакансию</button> <!-- Изменил input на button -->
+            </form>
+         </div>
+      </section>
+      <footer class="footer text-faded text-center py-5">
+         <div class="container">
+            <p class="m-0 small">Работа не волк, да прибудет с вами сила</p>
+         </div>
+      </footer>
+   </body>
+</html>
+
+
+
